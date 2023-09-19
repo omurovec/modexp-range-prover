@@ -5,6 +5,8 @@ edition = "2021"
 
 [dependencies]
 methods = { path = "../methods" }
+num-bigint = {version = "0.4.4", features = [ "serde" ]}
+num-traits = "0.2.16"
 risc0-zkvm = { version = "0.18.0" }
 serde = "1.0"
 
